@@ -1,0 +1,77 @@
+﻿## Visual Studio / .NET
+
+.vs/
+.vscode/
+.idea/
+
+## Build output
+
+bin/
+obj/
+publish/
+artifacts/
+Debug/
+Release/
+
+## Visual Studio user files
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## NuGet
+
+*.nupkg
+packages/
+.nuget/
+project.lock.json
+
+## Configuration & Secrets
+
+appsettings.json
+appsettings.*.json
+secrets.json
+.env
+.env.*
+
+## Test results & Coverage
+
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+coverage*.xml
+*.dotCover
+
+## Logs
+
+*.log
+
+## Local databases
+
+*.db
+*.db-shm
+*.db-wal
+
+## Node.js
+
+node_modules/
+npm-debug.log
+yarn-error.log
+
+## Docker
+
+docker-compose.override.yml
+
+## Operating system files
+
+[Dd]esktop.ini
+Thumbs.db
+.DS_Store
+
+## Temporary files
+
+*.tmp
+*.temp
